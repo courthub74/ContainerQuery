@@ -1,0 +1,59 @@
+body {
+  background-color: black;
+}
+body .post {
+  container-type: inline-size;
+}
+body .post .card {
+  border: 2px solid red;
+}
+body .post .card h2 {
+  color: red;
+}
+body .post .card p {
+  color: bisque;
+}
+body .post .more_word {
+  container-type: inline-size;
+}
+body .post .more_word h1 {
+  color: yellow;
+}
+
+@container (max-width: 600px) {
+  body {
+    background-color: black;
+  }
+  body .post {
+    container-type: inline-size;
+  }
+  body .post .card {
+    border: 2px solid blue;
+  }
+  body .post .card h2 {
+    color: blue;
+  }
+  body .post .card p {
+    color: bisque;
+  }
+}
+@container (max-width: 600px) {
+  body {
+    background-color: black;
+  }
+  body .post {
+    container-type: inline-size;
+  }
+  body .post .card {
+    border: 2px solid blue;
+  }
+  body .post .card h2 {
+    color: blue;
+  }
+  body .post .card p {
+    color: bisque;
+  }
+  body .post .more_word h1 {
+    color: blue;
+  }
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,67 @@
+body {
+    background-color: black;
+    .post {
+        container-type: inline-size;
+        .card {
+            border: 2px solid red;
+            h2 {
+                color: red;
+            }
+            p {
+                color: bisque;
+            }
+        }
+        .more_word {
+            container-type: inline-size;
+            h1 {
+                color: yellow;
+            }
+        }
+    }
+}
+
+// Head Line Container
+@container (max-width: 600px) {
+    body {
+        background-color: black;
+        .post {
+            container-type: inline-size;
+            .card {
+                border: 2px solid blue;
+                h2 {
+                    color: blue;
+                }
+                p {
+                    color: bisque;
+                }
+            }
+        }
+    }
+}
+
+// So you can do the ABOVE for each section 
+
+// More Word Container
+@container (max-width: 600px) {
+    body {
+        background-color: black;
+        .post {
+            container-type: inline-size;
+            .card {
+                border: 2px solid blue;
+                h2 {
+                    color: blue;
+                }
+                p {
+                    color: bisque;
+                }
+            }
+            .more_word {
+                h1 {
+                    color: blue;
+                }
+            }
+        }
+    }
+    
+}
